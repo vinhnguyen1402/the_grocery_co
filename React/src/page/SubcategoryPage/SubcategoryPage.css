@@ -1,0 +1,97 @@
+/* Define CSS variables for common values */
+:root {
+  --bg-color-light-gray: #f4f4f4;
+  --font-family-inter: "Inter";
+  --color-black: #000;
+  --font-size-standard: 14px;
+  --spacing-small: 5px;
+  --spacing-medium: 20px;
+  --spacing-large: 40px;
+}
+.masterSubCatContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.mainContent {
+  min-height: calc(100vh - 251px - 85px);
+}
+/* Container for the entire product page */
+.containerProductPage {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: var(--spacing-large);
+  gap: 13px;
+}
+
+/* Sidebar category filter */
+.catBar {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: flex-start;
+  background-color: var(--bg-color-light-gray);
+  color: var(--color-black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-standard);
+  padding: 63px 37px 0 37px;
+  width: max-content;
+}
+
+.catBar .category {
+  background-color: var(--bg-color-light-gray);
+  border: none;
+  height: fit-content;
+  width: fit-content;
+  min-width: 135px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.catBar .category:hover {
+  text-decoration: underline;
+}
+
+/* Main product display area */
+.productContainer {
+  width: 100%;
+  max-width: max-content;
+  padding: 0 var(--spacing-large) 0 26px;
+  background-color: white;
+}
+
+.productContainer .productBreadCrumb {
+  margin: 15px 0 54px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  color: var(--color-black);
+  font-size: 16px;
+}
+
+.productContainer .productBreadCrumb .line {
+  height: 21.6px;
+  border: solid 0.5px var(--bg-color-light-gray);
+}
+
+.productContainer .itemListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 68px 42px;
+  padding-left: 108px;
+}
+
+/* Container for tilesets */
+.tileset-container {
+  padding: var(--spacing-small) var(--spacing-medium);
+  > h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+}

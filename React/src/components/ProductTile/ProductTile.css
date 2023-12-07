@@ -1,0 +1,72 @@
+/* .productTile {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.productTile .productImage {
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.info-container {
+  width: 100%;
+  position: relative;
+} */
+
+/* .info-container .productName {
+  font-size: 15px;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+/* Prevents the text from wrapping into multiple lines */
+/* Ensures that the overflow text is hidden */
+/* Adds an ellipsis (...) at the end of the text if it overflows */
+
+/* .info-container .productPrice {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.info-container .addToCartButton {
+  background-color: var(--accent-orange);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  color: white;
+  height: 30px; 
+}  */
+/* Overwrite the ProductDesc CSS */
+/* .addToCartButton:focus::after {
+  content: ' ✔️';
+}
+
+.productTileLink {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.lowStock {
+  position: absolute; 
+  bottom: 30px; 
+  left: 0;
+  width: 100%;
+  text-align: left;
+  color: red; 
+  font-weight: bold;
+  height: 20px;
+} */

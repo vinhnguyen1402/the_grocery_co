@@ -1,0 +1,35 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  gap: 20px;
+  align-items: flex-start;
+  width: 272px;
+  height: 100%;
+  max-height: 392px;
+  padding: 12px;
+  background: white !important;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15);
+  transition: all ease 0.2s;
+  cursor: pointer;
+
+  .productImg {
+    width: 100% !important;
+    height: 188px;
+    object-fit: contain;
+    object-position: center;
+  }
+  .itemProductName .review .itemPrice {
+    width: fit-content;
+    height: fit-content;
+    margin-right: auto;
+  }
+  .price{
+    margin-top: 40px;
+  }
+
+  &:hover {
+    transition: all ease 0.2s;
+    scale: 1.04;
+  }
+}

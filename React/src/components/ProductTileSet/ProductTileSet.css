@@ -1,0 +1,87 @@
+
+.productTiles {
+  overflow: scroll;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+  padding: 10px 20px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.productTileSet {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: white;
+  gap: 15px;
+  position: relative;
+}
+
+.tile-pagination {
+  border: none;
+  background-color: var(--dark-green);
+  color: white;
+  height: 50px;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+  position: absolute;
+}
+.tile-pagination:disabled {
+  opacity: 50%;
+  background-color: gray;
+}
+.productTileSet .tile-right {
+  right: 0;
+}
+.productTileSet .tile-left {
+  left: 0;
+}
+
+@media (max-width: 768px) {
+  .productTiles {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+
+  .productTileSet {
+    display: flex;
+    flex-direction: column;
+    overflow: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    gap: 15px;
+  }
+
+  .tile-pagination {
+    bottom: 0;
+    width: 80px;
+  }
+  .productTileSet .tile-right {
+    right: 15%;
+  }
+  .productTileSet .tile-left {
+    left: 15%;
+    
+  }
+
+}
