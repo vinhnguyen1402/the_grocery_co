@@ -26,7 +26,7 @@ const FaqItem = ({ question, answer }) => {
 
 const FAQ = () => {
   return (
-    <div >
+    <div>
       <Header />
       <div className="splash-container">
         <img src={require("../../images/home.png")} alt="Home" />
@@ -35,7 +35,7 @@ const FAQ = () => {
         <h1>Frequently Asked Questions</h1>
         <FaqItem
           question="What are your store hours?"
-          answer="Our store is open from Monday to Sunday:\n\nMonday - Friday: 8:00 AM to 10:00 PM\nSaturday - Sunday: 9:00 AM to 8:00 PM"
+          answer="Our store is open from Monday to Sunday: Monday - Friday: 8:00 AM to 10:00 PM. Saturday - Sunday: 9:00 AM to 8:00 PM"
         />
         <FaqItem
           question="Do you offer online shopping?"

@@ -3,14 +3,11 @@
   overflow: scroll;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   background-color: white;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   gap: 20px;
   padding: 10px 20px;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 .productTileSet {

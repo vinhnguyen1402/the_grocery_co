@@ -27,7 +27,7 @@ const AboutPage = memo(() => {
                 <h2 class="joinheader">Join Us On Our Journey</h2>
                 <p class="joindescription">We're excited to have you as part of the Grocery Co. community. Whether you're a busy professional, a parent on the go,
                     or simply someone who values convenience, we're here to make your life easier and your meals more delicious.🥞</p>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3092220932904!2d-121.88365178806669!3d37.33518737198309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fccb864de43d5%3A0x397ffe721937340e!2sSan%20Jos%C3%A9%20State%20University!5e0!3m2!1sen!2sus!4v1701845959287!5m2!1sen!2sus" width="600" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3172.3092220932904!2d-121.88365178806669!3d37.33518737198309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fccb864de43d5%3A0x397ffe721937340e!2sSan%20Jos%C3%A9%20State%20University!5e0!3m2!1sen!2sus!4v1701845959287!5m2!1sen!2sus" width="600" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 
             </div>
             <Footer />

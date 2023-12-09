@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./ProductTileSet.css";
 import ItemContainer from "../ItemContainer/ItemContainer";
-import ProductTile from "../ProductTile/ProductTile";
 
 const ProductTileSet = ({ products }) => {
   const productsPerPage = 4;
