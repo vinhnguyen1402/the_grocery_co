@@ -22,7 +22,7 @@ const HomePage = () => {
     if (!productList?.length) {
       dispatch(getProductList());
     }
-  }, [dispatch, productList?.length]);
+  }, [productList]);
 
   useEffect(() => {
     const products = productList;
